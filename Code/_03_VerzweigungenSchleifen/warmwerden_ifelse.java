@@ -2,7 +2,7 @@ package _03_VerzweigungenSchleifen;
 
 import java.util.Scanner;
 
-public class warmwerden {
+public class warmwerden_ifelse {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int i=scan.nextInt();

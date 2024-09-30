@@ -4,21 +4,27 @@ import java.util.Scanner;
 
 public class Kalkulation {
     public static void main(String[] args) {
-        //Variablen
-        double handlungskostenzuschlag = 0.40;
-        double gewinnzuschlag = 0.05;
-        double mehrwertsteuer = 0.19;
-        double input;
-        //Eingabe
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Einkaufspreis: ");
-        input = scan.nextDouble();
-        //Ausgabe
-        double selbstkostenpreis = input + (input * handlungskostenzuschlag);
-        System.out.println("Selbstkostenpreis: " + selbstkostenpreis);
-        double nettoverkaufspreis = selbstkostenpreis + (selbstkostenpreis * gewinnzuschlag);
-        System.out.println("Nettoverkaufspreis: " + nettoverkaufspreis);
-        double bruttoverkaufspreis = nettoverkaufspreis + (nettoverkaufspreis * mehrwertsteuer);
-        System.out.println("Bruttoverkaufspreis: " + bruttoverkaufspreis);
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Geben Sie den Einkaufspreis ein: ");
+        double einkaufspreis = scanner.nextDouble();
+
+        double handlungskostenZuschlag = einkaufspreis * 0.40;
+        double selbstkostenpreis = einkaufspreis + handlungskostenZuschlag;
+
+        double gewinnZuschlag = selbstkostenpreis * 0.05;
+        double nettoVerkaufspreis = selbstkostenpreis + gewinnZuschlag;
+
+        double mehrwertsteuer = nettoVerkaufspreis * 0.19;
+        double bruttoVerkaufspreis = nettoVerkaufspreis + mehrwertsteuer;
+
+        System.out.println("\n--- _02_DatentypenVariablen.Kalkulation ---");
+        System.out.println("Einkaufspreis: " + einkaufspreis + " EUR");
+        System.out.println("+ 40% Handlungskostenzuschlag: " + handlungskostenZuschlag + " EUR");
+        System.out.println("= Selbstkostenpreis: " + selbstkostenpreis + " EUR");
+        System.out.println("+ 5% Gewinnzuschlag: " + gewinnZuschlag + " EUR");
+        System.out.println("= Nettoverkaufspreis: " + nettoVerkaufspreis + " EUR");
+        System.out.println("+ 19% Mehrwertsteuer: " + mehrwertsteuer + " EUR");
+        System.out.println("= Bruttoverkaufspreis: " + bruttoVerkaufspreis + " EUR");
     }
 }
