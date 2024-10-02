@@ -13,7 +13,7 @@ public class warmwerden_switch {
             case 3: System.out.println("zufriedenstellende Arbeit!"); break;
             case 4: System.out.println("ausreichende Arbeit!"); break;
             case 5,6: System.out.println("schlechte Arbeit!"); break;
-            case default: System.out.println("Das ist keine bekannte Note!");
+            default: System.out.println("Das ist keine bekannte Note!");
         }
     }
 }
