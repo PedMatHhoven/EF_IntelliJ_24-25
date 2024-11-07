@@ -9,7 +9,6 @@ public class Quadrat {
         String b = scanner.nextLine();
         System.out.print("Gib die Seitenlänge des Quadrats ein: ");
         int a = scanner.nextInt();
-
         for (int i = 0; i < a; i++) {
             for (int j = 0; j < a; j++) {
                 System.out.print(b+" ");

@@ -5,11 +5,9 @@ import java.util.Scanner;
 public class Monate {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-
         System.out.print("Gib einen Monat deiner Wahl ein (die Zahl des Monats):");
         int monatszahl = scan.nextInt();
         System.out.println("-----------------------------------------------------------------------------------------");
-
         switch (monatszahl){
             case 1:
                 System.out.println("Monat:Januar | Tage:31");
