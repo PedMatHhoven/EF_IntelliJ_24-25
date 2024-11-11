@@ -10,9 +10,9 @@ public class Maximum {
         double b = scan.nextDouble();
         double c = scan.nextDouble();
         System.out.print("Die größte Zahl ist ");
-        if (a > b && a > c){
+        if (a >= b && a >= c){
             System.out.println(a);
-        } else if (b > a && b > c) {
+        } else if (b >= a && b >= c) {
             System.out.println(b);
         } else {
             System.out.println(c);
