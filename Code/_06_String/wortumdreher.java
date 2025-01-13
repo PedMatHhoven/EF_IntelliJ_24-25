@@ -6,9 +6,9 @@ public class wortumdreher {
     public static String drehUm(String s) {
         String umgedreht = "";
         int laenge = s.length();
-        for (int i  = laenge - 1; i >= 0; i-=1) {
+        for (int i  = laenge - 1; i >= 0; i-=1){
             umgedreht += s.charAt(i);
-            System.out.println(umgedreht); //(mit Zwischenschritten)
+            //System.out.println(umgedreht); //(Zwischenschritte)
         }
         return umgedreht;
     }

@@ -3,7 +3,7 @@ package _07_OOP;
 public class Buch {
     //Attribute
     private int Seitenzahl;
-    private String String, Titel, Autor;
+    private String Titel, Autor;
 
     //Methoden
     //Konstruktor (gleicher Name wie Klasse)
