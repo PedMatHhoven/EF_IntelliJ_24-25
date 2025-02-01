@@ -1,4 +1,4 @@
-package _07_OOP;
+package _07_OOP.Buch;
 
 public class Zugriff {
     public static void main(String[] args) {
