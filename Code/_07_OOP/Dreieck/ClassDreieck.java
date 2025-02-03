@@ -72,6 +72,7 @@ public class ClassDreieck {
   } 
   
   public double Flächeninhalt() {
+    //Satz des Heron
     double s = Umfang() / 2;
     return Math.sqrt(s * (s - SeitenlängeC()) * (s - SeitenlängeA()) * (s - SeitenlängeB()));
   }
