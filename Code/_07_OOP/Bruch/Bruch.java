@@ -1,4 +1,4 @@
-package _07_OOP.Test.Bruch;
+package _07_OOP.Bruch;
 
 public class Bruch {
   // Anfang Attribute

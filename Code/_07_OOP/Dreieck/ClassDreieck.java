@@ -1,4 +1,4 @@
-package _07_OOP.Test.Dreieck;
+package _07_OOP.Dreieck;
 
 public class ClassDreieck {
   private int posAX;

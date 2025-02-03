@@ -1,4 +1,4 @@
-package _07_OOP.Test.Dreieck;
+package _07_OOP.Dreieck;
 
 import java.util.Scanner;
 
