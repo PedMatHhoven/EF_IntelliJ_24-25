@@ -1,4 +1,4 @@
-package _07_OOP.Auto;
+package _07_OOP.ErsteEigeneKlassen.Auto;
 
 import java.util.Scanner;
 

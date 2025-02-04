@@ -1,4 +1,4 @@
-package _07_OOP.Bruch;
+package _07_OOP.ErsteEigeneKlassen.Bruch;
 
 import java.util.Scanner;
 

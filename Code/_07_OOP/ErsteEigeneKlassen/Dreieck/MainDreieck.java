@@ -1,4 +1,4 @@
-package _07_OOP.Dreieck;
+package _07_OOP.ErsteEigeneKlassen.Dreieck;
 
 import java.util.Scanner;
 

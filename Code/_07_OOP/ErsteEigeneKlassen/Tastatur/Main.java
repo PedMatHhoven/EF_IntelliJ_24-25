@@ -1,4 +1,4 @@
-package _07_OOP.Tastatur;
+package _07_OOP.ErsteEigeneKlassen.Tastatur;
 
 import java.util.Scanner;
 

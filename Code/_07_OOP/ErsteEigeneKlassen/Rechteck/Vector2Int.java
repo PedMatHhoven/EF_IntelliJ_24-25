@@ -1,4 +1,4 @@
-package _07_OOP.Rechteck;
+package _07_OOP.ErsteEigeneKlassen.Rechteck;
 
 public class Vector2Int {
     public int x;

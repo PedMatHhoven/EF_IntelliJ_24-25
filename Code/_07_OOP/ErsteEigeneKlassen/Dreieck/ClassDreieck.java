@@ -1,4 +1,4 @@
-package _07_OOP.Dreieck;
+package _07_OOP.ErsteEigeneKlassen.Dreieck;
 
 public class ClassDreieck {
   private int posAX;

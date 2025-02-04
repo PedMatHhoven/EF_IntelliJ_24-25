@@ -1,4 +1,4 @@
-package _07_OOP.Tastatur;
+package _07_OOP.ErsteEigeneKlassen.Tastatur;
 
 public class Tastatur {
     private String farbe, keycaps, switches;

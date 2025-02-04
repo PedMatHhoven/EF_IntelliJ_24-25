@@ -1,4 +1,4 @@
-package _07_OOP.Buch;
+package _07_OOP.ErsteEigeneKlassen.Buch;
 
 public class Buch {
     //Attribute
