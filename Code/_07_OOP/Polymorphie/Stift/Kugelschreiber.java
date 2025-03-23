@@ -1,4 +1,4 @@
-package _07_OOP.Polymorphie;
+package _07_OOP.Polymorphie.Stift;
 
 class Kugelschreiber extends Stift {
     public Kugelschreiber (String e) {

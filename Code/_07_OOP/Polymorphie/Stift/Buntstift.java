@@ -1,4 +1,4 @@
-package _07_OOP.Polymorphie;
+package _07_OOP.Polymorphie.Stift;
 
 class Buntstift extends Stift {
     public Buntstift (String e) {

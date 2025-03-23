@@ -1,4 +1,4 @@
-package _07_OOP.Polymorphie;
+package _07_OOP.Polymorphie.Stift;
 
 public class StiftTester {
     public static void main ( String[] args ) {
