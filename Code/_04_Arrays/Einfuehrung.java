@@ -1,6 +1,6 @@
 package _04_Arrays;
 
-public class Einführung {
+public class Einfuehrung {
     public static void main(String[] args) {
         System.out.println("Erstes Beispiel zur Nutzung von (Integer-)Arrays.");
         int a; int b; int c; int d,e,f; //einzelne Variablen (wie bisher)
