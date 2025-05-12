@@ -15,19 +15,19 @@ public class BubbleSort {
         for (int i=0; i<sortiert.length; i++) System.out.print(sortiert[i]+", ");
     }
 
-    public static int[] bubblesort(int[] toSort) {
+    public static int[] bubblesort(int[] a) {
         //"einfachere" Version - immer gleich viele Durchläufe
         //und Vergleich aller Zahlen in jedem Durchlauf!
-        for(int i=1; i<toSort.length; i++) {
-            for(int j=1; j<toSort.length; j++) {
-                if(toSort[j-1]>toSort[j]) {
-                    int temp = toSort[j-1];
-                    toSort[j-1] = toSort[j];
-                    toSort[j] = temp;
+        for(int i=0; i<a.length-1; i++) {
+            for(int j=1; j<a.length; j++) {
+                if(a[j-1]>a[j]) {
+                    int temp = a[j-1];
+                    a[j-1] = a[j];
+                    a[j] = temp;
                 }
 
             }
         }
-        return toSort;
+        return a;
     }
 }
