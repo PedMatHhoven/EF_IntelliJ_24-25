@@ -5,7 +5,7 @@ public class InsertionSort {
         int[] s = {23, 7, 5, 13, 11, 2};
         int zusortieren = 0;
         System.out.println(java.util.Arrays.toString(s));
-        for (int i = 1; i <= s.length-1; i++){
+        for (int i = 1; i <= s.length-1; i++) {
             zusortieren = s[i];
             int j = i;
             while(j > 0 && s[j-1] > zusortieren){
