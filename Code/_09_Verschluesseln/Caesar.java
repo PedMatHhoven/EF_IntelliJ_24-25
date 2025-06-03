@@ -25,15 +25,12 @@ public class Caesar {
     }
   }
 
-  private static void crypt(char[] text, int shift){
-    for(int i = 0; i < text.length; i++){
+  private static void crypt(char[] text, int shift) {
+    for (int i = 0; i < text.length; i++) {
       if (text[i] >= 65 && text[i] <= 90) {
         text[i] = (char)(text[i] + shift);
-        if(text[i] > 90){
-          text[i] -= 26;
-        } else if(text[i] < 65){
-          text[i] += 26;
-        }
+        if(text[i] > 90) text[i] -= 26;
+        else if(text[i] < 65) text[i] += 26;
       }
     }
   }
